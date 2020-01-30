@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.title{
+	padding: 30px;
+}
+
+
+
+
+.container{
+	padding: 50px 0;
+	background-color: lightgray;
+}
+
+
+
+.infobox{
+	width: 300px;
+	display: inline-block;
+	background-color: lightblue;
+	margin: 0 60px;
+	height: 250px;
+	position: relative;
+}
+
+.infobox h2{
+	padding: 15px;
+	font-size: 40px;
+}
+
+.infobox p{
+	font-size: 70px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
