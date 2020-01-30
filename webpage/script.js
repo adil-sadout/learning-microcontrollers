@@ -1,6 +1,6 @@
 //Variables
-var humidity= "25%";
-var temperature= "47C"
+var humidity= "25%"; //the value should be a variable that stores the output of a sensor
+var temperature= "47C" //the value should be a variable that stores the output of a sensor
 
 
 //selecting the temperature & humidity
