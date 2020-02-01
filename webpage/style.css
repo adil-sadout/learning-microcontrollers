@@ -39,3 +39,49 @@
 	top: 50%;
 	transform: translate(-50%,-50%);
 }
+
+
+
+@media screen and (max-width: 850px) {
+ 
+	.infobox{
+				width: 300px;
+				display: inline-block;
+				background-color: lightblue;
+				margin: 30px;
+				height: 250px;
+				position: relative;
+			}
+
+
+
+
+}
+
+
+@media screen and (max-width: 450px) {
+ 
+	.infobox{
+				width: 70%;
+				display: inline-block;
+				background-color: lightblue;
+				margin: 30px;
+				height: 250px;
+				position: relative;
+			}
+
+	.infobox h2{
+					padding: 30px 15px 15px 15px;
+					font-size: 30px;
+				}
+
+	.infobox p{
+					font-size: 60px;
+					position: absolute;
+					left: 50%;
+					top: 50%;
+					transform: translate(-50%,0%);
+			}
+
+
+}

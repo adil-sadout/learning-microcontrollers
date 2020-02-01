@@ -5,8 +5,8 @@
 #include <ESP8266WebServer.h>
 
 #ifndef APSSID
-#define APSSID "ESPap"
-#define APPSK  "thereisnospoon"
+#define APSSID "JakChok"
+#define APPSK  "password"
 #endif
 
 /*Web Server*/
